@@ -1,0 +1,35 @@
+body{
+    font:normal 10px verdana;
+    background:#FFF;
+}
+.Spacer{
+    height:10px;
+}
+.Bundle{
+    text-align:center;
+    margin:5px 0;
+}
+
+table.OrdersTable{
+
+ border-spacing:0;
+ border:solid 1px #999;
+ width:90%;
+ margin:0 auto;   
+}
+table.OrdersTable td{
+    text-align:center;
+}
+table.OrdersTable{
+
+}
+
+.ShipTo,div.Price{
+    width:90%;
+    margin:10px auto;
+}
+
+.Price table{
+    width:90%;
+    border-spacing:0;
+}

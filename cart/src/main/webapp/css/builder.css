@@ -1,0 +1,125 @@
+fieldset.ProductOptions {
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 196px;
+}
+
+fieldset.ProductOptions ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset.ProductOptions ul li {
+    margin: 0 0 10px 0;
+}
+
+fieldset.ProductOptions ul li h1 {
+    font: normal 11px verdana;
+    color: #555555;
+    line-height: 15.4px;
+    padding: 3.3px 11px 3.3px 11px;
+    border-spacing: 3px 3px;
+    margin: 0;
+}
+
+fieldset.ProductOptions ul li div {
+    font: normal 10px verdana;
+    display: none;
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: solid 1px #D3D3D3;
+    border-top: none;
+    margin: 0 auto;
+    width: 96%;
+}
+
+.FakeDropdown {
+    border-radius: 4px;
+    background: url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
+    border: 1px solid #D3D3D3;
+    color: #555555;
+    font-weight: normal;
+    border-spacing: 3px;
+}
+
+table.CornerOptions td.tl, table.CornerOptions  td.bl {
+    text-align: right;
+}
+
+td.tl span {
+    float: right;
+    margin-top: 3px;
+}
+
+td.tr span {
+    float: left;
+    margin-top: 3px;
+}
+
+td.bl span {
+    float: right;
+    margin-top: -3px;
+}
+
+td.br span {
+    float: left;
+    margin-top: -3px;
+}
+
+table.CornerOptions {
+    border: none;
+    width: 100%;
+}
+
+table.CornerOptions td {
+    border: none;
+    padding: 0;
+    min-width: 30px;
+}
+table.CornerOptions label {
+    cursor: pointer;
+}
+table.CornerOptions input {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+table.CornerOptions {
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table.CornerOptions td.SampleCorner {
+    width: 46px;
+    height: 26px;
+}
+
+table.CornerOptions td.SampleCorner div{
+    border: solid 1px #555;
+    background: #FFF;
+    width: 46px;
+    height: 26px;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    font: bold 10px/22px tahoma;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+table.CornerOptions td.SampleCorner div.corner_tr{
+    border-top-right-radius: 10px;
+}
+
+table.CornerOptions td.SampleCorner div.corner_br{
+    border-bottom-right-radius: 10px;
+}
+table.CornerOptions td.SampleCorner div.corner_bl{
+    border-bottom-left-radius: 10px;
+}
+
+table.CornerOptions td.SampleCorner div.corner_tl{
+    border-top-left-radius: 10px;
+}

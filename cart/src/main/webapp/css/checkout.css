@@ -1,0 +1,473 @@
+.Checkout{
+
+}
+.CheckoutFlow{
+
+    display:none;
+    width:445px;
+    margin:0px 0 15px 0;
+   /* border:solid 1px #DADADA;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color: #F4F4FF;
+    padding:5px 10px 10px 10px;*/
+    color:#666;
+    font:normal 12px Arial;
+}
+/*BREADCRUMBS*/
+#breadCrumbs {
+    text-align:right;
+    height:32px;
+    margin:5px 0;
+}
+
+#breadCrumbsUl{
+ list-style:none;
+ margin:0;
+ padding:0;
+ float:right;
+ width:460px;
+ height:30px;
+ background:url("../images/bcBar_blue.png");
+ background-repeat:no-repeat;   
+ background-position:-800px -1px;   
+ border:solid 1px #666;   
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+ border-radius:3px;
+
+}
+
+
+
+.Step,.Divider,.OpenCap,.EndCap{
+    margin:0;
+    display:inline;
+    height:30px;
+    float:left;
+}
+
+.Step{
+    padding:0 10px 0 10px;
+    font: bold 12px/28px arial;
+    text-align:center;
+    color:#CCC;
+}
+
+.Divider{
+    width:10px;
+    background:url("../images/bcTip.png");
+}
+
+.ActiveStep{
+    /*border-bottom:solid 2px;*/
+    color:#FFF;
+}
+
+.ActiveDivider{
+  /*  border-bottom:solid 2px;*/
+}
+.ActiveEndCap{
+   /* border-bottom:solid 2px;*/
+}
+
+#cartFlow{
+    margin:10px 15px 0 15px;
+    width:440px;
+    float:left;
+    clear:both;
+}
+/*LARGE PRODUCT DETAILS*/
+.ProductDetail,.ProductDetailCheckout{
+    width:425px;
+    margin:0px 0 15px 0;
+    border:solid 1px #DADADA;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color: #F4F4FF;
+    padding:5px 10px 10px 10px;
+    color:#666;
+    font:normal 12px Arial;
+}
+.ProductDetail{
+    height:270px;
+}
+
+ input.CheckoutSpinner{
+    width:30px;
+    height:12px;
+    text-align:center;
+    font:normal 12px Arial;
+}
+span.Sets{
+
+    color:#666;
+    font:normal 12px Arial;
+}
+.RemoveDiv{
+    text-align:center;
+    height:15px;
+    font-weight:bold;
+}
+
+.RemoveButton{
+    font:normal 10px arial;
+    float:right;
+    width:11px;
+    height:11px;
+    margin:0;
+    border:solid 1px #CACACA;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    background-color: #E4E4E4;
+    padding:2px;
+}
+
+.ProductDetailTitle,.StepTitle{
+    font:bold 20px arial;
+    color:#ED7700;    
+}
+
+
+.ProductDetailHead{
+    border-top:solid 1px #999;
+    border-bottom:solid 1px #999;
+    padding:2px 0 2px 0;
+    font: bold 16px arial;
+    height:20px;
+    color:#333;
+}
+.ProductName{
+    float:left;
+}
+.ProductSets
+{
+    float:right;
+    margin:0 15px 0 15px;
+}
+.ProductPrice
+{
+    float:right;
+    width:100px;
+}
+
+.ProductDetailSpec,.ProductDetailSpecSmall
+{
+    width:100%;
+    border-collapse:collapse;
+    border-spacing:0;
+    margin: 15px 0;
+}
+.ProductDetailSpec td.Name
+{
+    width:120px;
+    height:25px;
+    font:bold 14px arial;
+    color:#333;
+}
+.ProductDetailSpecSmall{
+    margin:5px 0;
+    display:none;
+}
+.ProductDetailSpecSmall td.Name
+{
+    width:120px;
+    height:20px;
+    font:bold 14px arial;
+    color:#333;
+}
+.ProductDetailSpec td.Desc
+{
+    font:normal 14px arial;
+    color:#666;
+}
+.ProductDetailSpec td.Value
+{
+    width:100px;
+    font:normal 14px arial;
+    color:#666;
+    padding:0 0 0 2px;
+}
+.ProductDetailSpec td.Discount{
+    color:#090;
+    font:bold 14px arial;
+}
+
+/*SHIPPING OPTIONS*/
+
+.ShipOption,.ShipOptionMain{
+    margin:0px 5px 15px 5px;
+    padding:5px;
+     border:solid 1px #DADADA;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color: #E4E4EE;
+}
+.Hide{
+    display:none;
+}
+.StepTitle{
+    border-bottom:solid 1px #CCC;
+    padding:0 0 6px 0;
+}
+.StepTitle2{
+    border-bottom:solid 1px #CCC;
+    padding:0 0 4px 0;
+    margin:15px 0 0 0;
+    font:bold 16px arial;
+    color:#333;
+    height:20px;
+}
+
+.ShipOptionTitle{
+    font:bold 14px arial;
+    color:#333;
+}
+.ShipReadyDate{
+
+    padding:3px;
+    border-top:solid 1px #ccc;
+    border-bottom:solid 2px #ccc;
+    background:#DDF;
+}
+
+.ShipAddress table{
+    width:100%;
+}
+.ShipAddress input.NiceInput{
+    width:270px;
+}
+
+.Selectmenu-item-header
+{
+  border-top:solid 1px #999;
+  font-weight:bold;  
+}
+.AddressBook{
+    width:420px;
+}
+
+.ShipOptions table{
+    width:100%;
+}
+.PickupInstructions{
+    margin:10px;
+    
+}
+
+/*
+UPLOAD
+*/
+.DetailsHandle{
+    color:#1485C9;
+    font:normal 12px Arial;
+    cursor:pointer;
+}
+table.FileUpload{
+    margin:15px 0 0 0;
+    width:400px;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.FileUpload td.UpTitle{
+    height:25px;
+    width:100px;
+}
+
+.UpFrame{
+    display:none;
+}
+
+.ProgTitle{
+   float:left;
+   height:20px;
+   width:103px;
+}
+.ProgressBar{
+
+    width:320px;
+    margin:0px 0px 0 0;
+    float:left;
+    height:15px;
+    text-align:center;
+    border:solid 1px #1485C9;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    font:normal 12px Arial
+}
+/*Static Product List.*/
+
+#staticCart{
+    width:231px;
+    /*float:left;*/
+     border:solid 1px #DADADA;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color: #F4F4FF;
+    padding:5px 5px 10px 5px;
+    color:#666;
+    font:normal 12px Arial;
+   /* position:absolute;*/
+    margin:10px 0 0 472px;
+}
+
+.YourOrder{
+    font:bold 18px arial;
+    color:#1485c9;
+    margin:0 0 9px 0;
+}
+
+#staticCart div.StaticProductDetail{
+    border-top:solid 1px #ccc;
+    padding:10px 0 10px 0; 
+}
+
+.StaticDetails div:last-of-type{    
+    border-top:solid 1px #ccc;
+    border-bottom:solid 1px #ccc;    
+    margin:0 0 10px 0;
+}
+
+.StaticTable{
+    width:100%;
+    border-collapse:collapse;
+    border-spacing:0;
+
+}
+
+.StaticNumber{
+    width:15px;
+    font:bold 12px arial;
+    color:#333;
+    vertical-align:top;
+    text-align:left;
+}
+
+.StaticTitle{
+    font:bold 12px arial;
+    color:#333;
+    vertical-align:top;
+    text-align:left;
+}
+
+.StaticPrice,.StaticTotalPrice{
+    width:50px;
+    font:bold 12px arial;
+    color:#333;
+    vertical-align:top;
+    text-align:left;
+}
+
+.StaticTotals{
+    border:solid 1px #99F;
+    background:#DDF;
+    padding:10px 0 10px 0;
+
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+.StaticTotal,.StaticGrandTotal{
+    font:normal 14px arial;
+    color:#333;
+    vertical-align:top;
+    text-align:right;
+    padding:0 15px 0 0;
+}
+.StaticGrandTotal,.StaticTotalPrice{
+    border-top:solid 1px #999;
+    height:30px;
+    vertical-align:bottom;
+    font:bold 16px arial;
+}
+.StaticTotalPrice{
+    color:#1485c9;
+}
+
+
+.CallExpert{
+    margin:10px 0;
+}
+
+body {font-size: 62.5%; font-family:"Verdana",sans-serif; }
+
+
+/*Buttons*/
+.CartButton{
+    width:215px;
+    height:38px;
+    cursor:pointer;
+    background-repeat:no-repeat;
+}
+.Prev1{background-image:url("../images/Previous/Previous_1.png");}
+.Prev2{background-image:url("../images/Previous/Previous_2.png");}
+.Prev3{background-image:url("../images/Previous/Previous_3.png");}
+
+.Shipping1{background-image:url("../images/Shipping/Shipping_1.png");}
+.Shipping2{background-image:url("../images/Shipping/Shipping_2.png");}
+.Shipping3{background-image:url("../images/Shipping/Shipping_3.png");}
+
+.Payment1{background-image:url("../images/Payment/Payment_1.png"); cursor:default;}
+.Payment2{background-image:url("../images/Payment/Payment_2.png"); cursor:pointer;}
+.Payment3{background-image:url("../images/Payment/Payment_3.png");}
+
+.ContinueButton{
+    margin:0 0 0 10px;
+    width:180px;
+    height:33px;
+    background-image:url("../images/Continue/Shopping_3.png");
+    cursor:pointer;
+    float:left;
+}
+
+.ContinueLink {
+    font: bold 14px Arial;
+    color:#1485c9;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+/*Lightbox TABLE*/
+.Overall{
+    position:absolute;
+    height:100%;
+    width:100%;
+    color:#000;
+    background:url('../images/50-black.png');
+    display:none;
+    z-index:100;
+    top:0;
+}
+.MessageContainer2{
+    position:absolute;
+    height:130px;
+    width:650px;
+    color:#000;
+    background:#FFF;
+    border:solid 7px #333;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -border-radius:5px;
+    z-index:1001;
+    top:0;
+    text-align:center;
+    padding:5px;
+     display:none;
+}
+.Message2{
+    height:100px;
+    margin:10px 10px 0 10px;
+    color:#000;
+    background:#FAFAFF;
+    border:solid 1px #DDF;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -border-radius:5px;
+    text-align:center;
+}

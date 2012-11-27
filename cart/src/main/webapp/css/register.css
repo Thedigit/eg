@@ -1,0 +1,90 @@
+#registration{
+    margin:0px 10px 0px 10px;
+}
+
+#breadCrumb{
+    margin:5px 0;
+    border-bottom:solid 1px #DADADA;
+    font:bold 12px Arial;
+    color:#CACACA;
+}
+
+.Title{
+    margin:15px 0 0px 0px;
+    font:bold 16px Arial;
+    color:#F60;
+}
+
+.RegDiv{
+    margin:15px 0 15px 0;
+    border:solid 1px #DADADA;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    background-color: #F4F4FF;
+    padding:5px 10px 10px 10px;
+    color:#666;
+    font:normal 12px Arial;
+}
+.RegDivTitle{
+    font:bold 14px Arial;
+    margin-bottom:10px;
+}
+span.Required{
+    color:#F60;
+    vertical-align:middle;
+    margin-left:3px;
+}
+
+td.LeftField{
+    width:150px;
+}
+
+    input.NiceInput{
+    border-style:inset;
+    border-top:solid 1px #CACACA;
+    border-left:solid 1px #CACACA;
+    border-right:solid 1px #FAFAFA;
+    border-bottom:solid 1px #FAFAFA;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    padding:1px 2px 1px 5px;
+
+    font:normal 12px Arial;
+    color:#666;
+    height:20px;
+    width:200px;
+}
+#taxId{
+    position:absolute;
+    left:0;
+    width:200px;
+}
+
+#proceedButton{
+    font: bold 14px Arial;
+    color:#FFF;
+    height: 15px;
+    margin: 10px 0 0 0;
+    padding: 5px 5px 5px 0;
+    width: 100px;
+    text-align:center;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+}
+.ProceedInactive{
+    border:solid 1px #333;
+    background:#999;
+}
+.ProceedActive{
+    border:solid 1px #F60;
+    background:#F60;
+    cursor:pointer;
+}
+.ProceedHover{
+    background:#F90;
+    cursor:pointer;
+}

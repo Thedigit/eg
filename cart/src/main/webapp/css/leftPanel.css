@@ -1,0 +1,133 @@
+html{
+    margin:0;
+    padding:0px;
+}
+body{
+   /* background:url("https://d2c6jpv0fksi04.cloudfront.net/images/banner/background.jpg");
+    background-repeat:repeat-y;
+    background-position:50% 0; */
+    background-color:#d2d0d0;
+    padding:0;
+     margin:0;
+}
+.RightPanel{
+    background:#FFF;
+}
+.LeftPanel{
+          width:170px;
+          background:#E1E1E1;
+          float:left; 
+      }
+            .Welcome{
+                background:#666;
+                color:#FFFFFF;
+                font: normal 11px sans-serif;
+                text-align: center;
+                padding:3px;
+            }
+            .CartMini{
+                background:#666;
+                color:#FFF;
+                font: normal 11px sans-serif;
+                text-align: center;
+            }
+            .CartTitle{
+                background:#ED7700;
+                color:#FFF;
+                font: normal 11px sans-serif;
+                text-align: center;
+                height:14px;
+                margin:0px;
+                padding: 4px 0 4px 0;
+            }
+            .CartItems{
+                background:#E1E1E1;
+                color:#333;
+                font: normal 11px sans-serif;
+                text-align: left;
+                margin:0px
+            }
+            .CartItems ul{
+                list-style:none;
+                margin:0px 0 0 5px;
+                padding:0;
+            }
+            .CartItems ul li{
+
+                padding:2px 0 2px 0;
+            }
+            .ItemHover{
+                background:#F1F1F1;
+                cursor:pointer;
+            }
+            .ItemTotal{
+                float:right;
+                margin: 0 3px 0 0;
+            }
+            .ItemSpecs{
+
+                text-align: left;
+                display:none;
+            }
+            .ItemSpecs table{
+                margin: 0 0 10px 20px;
+                border-bottom:solid 1px #F1F1F1;
+                width:160px;
+                border-spacing:0;
+            }
+            .CartTotal{
+                background:#6489a3;
+                height:14px;
+                padding:0px 2px 0 0;
+                text-align:right;
+            }
+            .CartControls{
+                background:#666;
+                height:20px;
+                padding:2px 2px 0 0;
+                text-align:center;
+            }
+
+            /*CATEGORIES*/
+            .Categories{
+
+            }
+            .CategoriesTitle{
+                background:#666;
+                color:#FFF;
+                font: bold 12px sans-serif;
+                text-align: center;
+                height:20px;
+                line-height:20px;
+                margin:3px 0 0 0;
+            }
+            .Categories ul{
+                list-style:disc inside none;
+                margin:20px auto 0px;
+                padding:0;
+                width:150px;
+            }
+            .Categories ul li{
+                border-top:solid 1px #CCC;
+                padding-left:0px;
+                margin:0px;
+                color:#F63;
+                font: normal 8px/21px sans-serif;
+                height:21px;
+            }
+            .Categories ul li:last-of-type{
+                border-bottom:solid 1px #CCC;
+            }
+
+            .CategoryLink{
+                text-decoration:none;
+                color:#333;
+                font: bold 12px Arial;
+                line-height:18px;
+                vertical-align:middle;
+            }
+
+            .Highlight{
+                color:#333;
+                background:#FAFAFA;
+            }

@@ -1,0 +1,7 @@
+# 
+
+User-agent: *
+Disallow: http://www.egprint.net/login.jsp
+Disallow: http://www.egprint.net/account.jsp
+
+Sitemap: http://www.egprint.net/sitemap.xml

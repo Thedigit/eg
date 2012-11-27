@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.egprint.luna</groupId>
+    <artifactId>luna</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Luna Parent Project</name>
+    <description>Parent Module for Luna System</description>
+
+
+    <!--Define Luna Modules-->
+    <modules>
+        <!--Shopping Cart Module-->
+        <module>cart</module>
+
+        <!--Coming Soon-->
+        <!--Admin (Backend) Module
+        <module>admin</module>
+        <- -Quickbooks Module
+        <module>quickbooks</module-->
+    </modules>
+
+
+    <properties>
+        <cart.warName>cart</cart.warName>
+    </properties>
+
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+        </profile>
+        <profile>
+            <id>production</id>
+        </profile>
+    </profiles>
+
+</project>

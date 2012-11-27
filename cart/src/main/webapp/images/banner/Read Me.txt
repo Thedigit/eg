@@ -1,0 +1,7 @@
+This folder contains the images that can be changed in the website:
+background.jpg : Main background image. Try to keep as small as possible so site loads fast.
+banner.jpg : Rotating banner. Look at the file, it's actually three banners in one. Keep the dimensions of this file AS IS. otherwise the rotating banner is going to be funky.
+empty.png: Small button used to show what banners are NOT selected. Needs to be a png wih transparency.
+Full.png: Small button used to show what banner IS selected. Needs to be a png wih transparency.
+
+filenames need to be exactly like this.

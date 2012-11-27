@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.AccordionTitle, .AccordionContent, .AccordionContainer
+{
+ position:relative;
+
+}
+
+.AccordionTitle
+{
+
+	/*overflow:hidden;*/
+	cursor:pointer;
+	vertical-align:middle;
+	text-align:left;
+	-moz-user-select:none;
+	color: #333333;
+	font: bold 12px/18px Arial;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.AccordionContent
+{
+  height:0px;
+  display:none;
+  margin-left:55px;
+  text-align: left;
+
+}
+
+#AccordionContainerTemplates .AccordionContent
+{
+  height: auto;
+  display:block;
+}
+#AccordionContainerTemplates .AccordionTitle
+{
+  border-bottom: solid 1px #CCC;
+}
+
+.AccordionContainer
+{
+
+}
+
+
+.AccordionContainer ul {
+    list-style: disc inside none;
+}
+
+.AccordionContainer ul li{
+    color: #FF6633;
+    font: 12px/21px sans-serif;
+    margin: 0;
+    padding-left: 0;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+
+
+.AccordionContent ul li{
+	border-bottom: none !important;
+    text-align: left;
+}
+.question{
+    color: #333333;
+    font: bold 12px/18px Arial;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.designImage {
+	float:left;
+}
+.artworkcmyk {
+	margin-left: 95px;
+}
+
+.cmykBox {
+
+}
+
+.designDiv {
+	float: left;
+	margin: 15px;
+}
+.orange {
+	color:#FF6633;
+}

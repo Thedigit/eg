@@ -1,0 +1,268 @@
+      .RightPanel{
+          width:715px;
+          background:#FFF;
+          float:right;
+      }
+            .ProductTitle{
+                color:#333;
+                font: bold 24px sans-serif;
+                text-align:center;
+                height:6px;
+
+            }
+            .ProductImage{
+                color:#333;
+                font: bold 24px sans-serif;
+                text-align:center;
+
+            }
+            .ProductImage2{
+                margin:5px 0 0 15px;;
+                float:left;
+                text-align:center;
+                position:relative;
+            }
+
+            img.ProductImage{
+
+            }
+      
+            .OptionImage{
+                display:none;
+            }
+
+            .SocialButtons table{
+                border-collapse:collapse;
+                margin:10px auto;
+            }
+            .ProductText{
+                color:#333;
+                font: normal 14px courier;
+                text-align:center;
+                margin:5px 20px 0px 20px;
+                
+
+            }
+
+            .OptionsDiv{
+                float:right;
+                width:340px;
+            }
+            table.OptionsTable{
+                width:340px;
+                border-spacing:3px;
+            }
+            table.OptionsTable th{
+                padding-top: 8px;
+                text-align: right;
+                vertical-align: top;
+            }
+            table.OptionsTable td{
+                text-align:left;
+                padding-left:7px;
+                border:solid 2px #FFF;
+                -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+                border-radius:5px;
+            }
+
+            td.Blink{
+                width:205px;
+            }
+      
+            table.OptionsTable select{
+                width:200px;
+            }
+            .Highlight2{
+                background:#99F;
+                border-color: #43437c;
+                color:#fff;
+            }
+
+            div.ProductOptions{
+                margin:5px 0px 0 15px;
+                text-align:left;
+                clear:both;
+            }
+
+            div.ProductOptionsTitle{
+
+                text-align:center;
+                font: bold 14px verdana;
+                margin:5px;
+            }
+
+            div.ProductOption{
+                float:right;
+                width:150px;
+                height:75px;
+                border:solid 1px #999;
+                background:#FFF;
+                border-radius:5px;
+                -moz-border-radius:5px;
+                -webkit-border-radius:5px;
+                margin: 0 23px 5px 0px;
+                cursor:pointer;
+                text-align:center;
+            }
+
+            div.ProductOptionHover{
+                background:#D4F5F9;
+                color:#333;
+            }
+
+            div.ProductOptionSelected{
+                background:#DDDDFF;
+                color:#333;
+            }
+
+      .BottomPricingDiv{
+          clear:both;
+      }
+
+      .BottomPricingSection{
+          width:205px;
+          height:250px;
+          margin:10px 0 10px 0;
+          padding:15px;
+          float:left;
+
+      }
+      .BottomPricingSection:first-of-type{
+          border-right:solid 1px #CCC;
+      }
+      .BottomPricingSection:last-of-type{
+          border-left:solid 1px #CCC;
+      }
+      .BottomPricingRegular{
+          font:  normal 12px sans-serif;
+          color:#666;
+          height:20px;
+
+      }
+      .BottomPricingSection ul{
+          margin:10px 0 0 0;
+          padding:0 0 0 25px;
+         /* list-style-image:url("/workflow/icons/Information-icon.png");*/
+
+      }
+      .BottomPricingSection ul li{
+          font:  normal 12px sans-serif;
+          color:#666;
+          margin:0;
+          padding:0;
+          line-height:18px;
+      }
+
+
+      .BottomPricingTitle{
+          font:bold 14px arial;
+          color: #1485c9;
+          margin:0 0 10px 0;
+      }
+
+      #shippingZip{
+          width:50px;
+          margin:10px auto;
+      }
+      .shippingOptions{
+          width:160px;
+          padding:10px;
+          background:#EEE;
+          -moz-border-radius:5px;
+          -webkit-border-radius:5px;
+          border-radius:5px;
+      }
+      .shippingOptions input{
+          /*width:20px;/**/
+      }
+      #shippingArrivalDate{
+          display:none;
+      }
+      .BottomPanel{
+          clear:both;
+          text-align:center;
+      }
+      .BottomPanel2{
+          background:#E1E1E1;
+          color:#666;
+          font: normal 10px sans-serif;
+          width:885px;
+          height:14px;
+          line-height:14px;
+          text-align:center;
+      }
+
+  /*Shopping Cart Controls*/
+        #addToCart{
+            /*display:none;*/
+            /*height:30px;*/
+        }
+        #pricingTable{
+            margin:0px auto;
+           /* display:none;*/
+            width:205px;
+            border-collapse:collapse;
+            color:#666666;
+            font: normal 12px arial;
+        }
+
+        td.PriceCell{
+            background:#1485c9;
+            color:#FFF;
+            font: bold 16px sans-serif;
+            padding:8px 0;
+        }
+        #pricingTable tr:last-of-type td:first-of-type{
+            background:#1485c9;
+            width:10px;
+            -moz-border-radius-topleft:3px;
+            -webkit-border-radius-topleft:3px;
+            -border-radius-topleft:3px;
+            -moz-border-radius-bottomleft:3px;
+            -webkit-border-radius-bottomleft:3px;
+            -border-radius-bottomleft:3px;
+              }
+         #pricingTable tr:last-of-type td:last-of-type{
+            background:#1485c9;
+            width:10px;
+            -moz-border-radius-topright:3px;
+            -webkit-border-radius-topright:3px;
+            -border-radius-topright:3px;
+            -moz-border-radius-bottomright:3px;
+            -webkit-border-radius-bottomright:3px;
+            -border-radius-bottomright:3px;
+             }
+
+
+        td.Right{
+            text-align:right;
+        }
+        .DiscountPrice{
+            padding-bottom:15px;
+        }
+
+        #sets{
+            width:30px;
+            text-align:center;
+        }
+
+      .AddToCart{
+
+          height:81px;
+          width:180px;
+          margin:10px auto;
+          background:url("../images/addtocart-gs.jpg");
+
+      }
+      .AddToCartActive{
+
+          cursor:pointer;
+          background:url("../images/addtocart-dark.jpg");
+
+      }
+      .AddToCartHover{
+          background:url("../images/addtocart.jpg");
+
+      }
+      body {font-size: 62.5%; font-family:"Verdana",sans-serif; }

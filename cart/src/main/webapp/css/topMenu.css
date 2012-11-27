@@ -1,0 +1,114 @@
+html, body {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.Pointer {
+    position: absolute;
+
+}
+
+.OrangeButton {
+    height: 18px;
+    font: normal 11px sans-serif;
+    border: solid 1px #FFF;
+    background: #F63;
+    color: #FFF;
+}
+
+.Body {
+    margin: 0 auto;
+    width: 885px;
+    background: #E1E1E1;
+    box-shadow: 0 0 9px 4px #666666;
+    -moz-box-shadow: 0 0 9px 4px #666666;
+    -webkit-box-shadow: 0 0 9px 4px #666666;
+}
+
+.Top1, .BottomPanel {
+    background: #666;
+    color: #FFF;
+    font: normal 14px sans-serif;
+    width: 885px;
+    height: 25px;
+    line-height: 22px;
+
+}
+
+.TopMenuItem:first-of-type {
+    margin-left: 10px;
+}
+
+a.TopMenuItem {
+    margin: 0 5px;
+    color: #FFF;
+    font: normal 11px sans-serif;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+a.TopMenuItem:hover {
+    color: #F90;
+}
+
+div.TopMenuSearch {
+    float: right;
+    width: 190px;
+    height: 25px;
+    font: normal 11px sans-serif;
+    margin-right: 5px;
+}
+
+input.TopMenuSearch {
+    border: 1px solid #E1E1E1;
+    font: 11px sans-serif;
+    height: 16px;
+    margin: 0;
+    padding: 0 0 0 5px;
+    position: relative;
+    top: -1px;
+    width: 100px;
+}
+
+button.TopMenuSearch {
+    margin: 3px 0 0 0;
+}
+
+.Top2 {
+    background: url('../images/head2009.jpg');
+    width: 885px;
+    height: 111px;
+    line-height: 22px;
+}
+
+.Top3 {
+
+    width: 885px;
+    height: 3px;
+    background: #666;
+}
+
+.RightPanel {
+    width: 715px;
+    background: #FFF;
+    float: right;
+}
+
+.BottomPanel {
+    clear: both;
+    text-align: center;
+}
+
+.BottomPanel2 {
+    background: #E1E1E1;
+    color: #666;
+    font: normal 10px sans-serif;
+    width: 885px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+a img {
+    border: none;
+}
